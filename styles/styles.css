@@ -61,14 +61,15 @@ li {
   font-weight: 900;
   display: inline-block;
   position: absolute;
-  right: 0;
+  right: 10px;
+  top: 3px;
 }
 
 .todo-text {
   width: -moz-fit-content;
   width: fit-content;
   display: inline-block;
-  margin-right: 30px;
+  margin-right: 50px;
 }
 
 .delete-button, .todo-text {

@@ -12,9 +12,9 @@ form.addEventListener("submit", (event) => {
 
     li.firstChild.addEventListener("click", () => {
         if (li.firstChild.style.color === "black"){
-            li.firstChild.style.color = "grey";
+            li.firstChild.style.color = "lightgrey";
             li.firstChild.style.textDecoration = "line-through";
-            li.firstChild.style.textDecorationColor = "grey";
+            li.firstChild.style.textDecorationColor = "lightgrey";
             li.firstChild.style.textDecorationThickness = "3px";
         }
         else {

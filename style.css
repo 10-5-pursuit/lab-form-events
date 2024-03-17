@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital@0;1&display=swap');
+
+body {
+    text-align: center;
+    align-items: center;
+    background-color: #F0F5EE;
+    font-family: "Rubik", sans-serif;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    height: fit-content;
+    max-height: 300px;
+    width: fit-content;
+    min-width: 400px;
+    margin: auto;
+    overflow: clip scroll;
+    scrollbar-width: thin;
+    scrollbar-color: #88C29E lightgray ;
+    text-align: left;
+    box-shadow: 2px 2px 10px rgb(57, 81, 92);
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: white;
+}
+h1 {
+    margin-bottom: 0;   
+    font-size: 140px;
+    color: #ACE7AB;
+}
+
+.todo-form__input {
+    padding-left: 10px;
+    min-width: 400px;
+    width: max-content;
+    height: 40px;
+    font-size: 24px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    background-color: rgba(169, 219, 169, 0.333);
+}
+.todo-form__input::-moz-placeholder {
+    color: #88C29E;
+}
+.todo-form__input::placeholder {
+    color: #88C29E;
+}
+.todo-text {
+    margin-left: 5px;
+    width: fit-content;
+    display: inline-block;
+    margin-right: 30px;
+
+}
+li {
+    font-size: 24px;
+    border-bottom: 2px solid lightgrey;
+    height: 40px;
+    margin-top: 10px;
+    position: relative;
+    cursor: pointer;
+}
+.delete-X {
+    font-weight: 400;
+    margin-right: 10px;
+    font-size: 20px;
+    position: absolute;
+    display: inline-block;
+    right: 0;
+    cursor: pointer;
+}

@@ -3,8 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/index.css" />
+    <script src="./scripts/script.js" defer></script>
+    <title>Todo - App</title>
   </head>
   <body>
     <header class="todo-header">
@@ -12,10 +13,21 @@
     </header>
     <main class="todo-main">
       <form id="todo-form" class="todo-form">
-        <input type="text" class="todo-form__input" id="todo-input" placeholder="Enter your todo" autocomplete="off"/>
-        <ul class="todo-list" id="todo-list"></ul>
+        <input
+          type="text"
+          class="todo-form__input"
+          id="todo-input"
+          placeholder="Enter your todo"
+          autocomplete="off"
+        />
+        <ul class="todo-list" id="todo-list">
+          <!-- Todo Items goes here. -->
+          <!-- <li class="todo-list__item">
+            <p class="todo-list__item-text">Test</p>
+            <span class="todo-list__item-delete">X</span>
+          </li> -->
+        </ul>
       </form>
     </main>
-    <script src="script.js"></script>
   </body>
 </html>

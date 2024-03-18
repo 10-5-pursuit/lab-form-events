@@ -34,9 +34,17 @@ body{
     background: white;
     position: relative;
     padding: 0 10px;
-    margin: 0 10px;
+    margin: auto;
     list-style-type: none;
     font-size: 20px;
+    box-shadow: gray;
+    border-bottom: gray;
+}
+.todo-item{
+  width: 170px;
+  align-items: left;
+  justify-content: center;
+  
 
 }
 .completed {

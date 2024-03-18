@@ -46,8 +46,6 @@ body {
 
 .todo-item {
   width: 170px;
-  align-items: left;
-  justify-content: center;
 }
 
 .completed {
